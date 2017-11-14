@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+
+/* FORMATACAO MENU SUPERIOR */
+nav#menu {
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -22px;
+    left: 0px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(220,220,220,.4);
+    padding: 10px;
+    margin: 5px;
+}
+
+/********************************/
+/* FORMATACAO DE CABECALHO */
+header#cabecalho {
+    border-bottom: 1px #dddddd solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat -2px 100px;
+}
+
+header#cabecalho h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px #dddddd;
+
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15pt;
+    color: #888888;
+
+    padding: 0px;
+    margin-top: 0px;
+
+}
+h2 {
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin: 0px;
+}
+/********************************/
+/*FORMATACAO CORPO*/
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body {
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+    font-family: 'Titillium Web', sans-serif;
+}
+div#interface{
+    background-color: white;
+    width: 920px;
+    margin: -20px auto 0px auto; /*centralizar*/
+    box-shadow: 0px 0px 10px grey;
+    padding: 10px;
+}
+form#info {
+    position: relative;
+    float: left;
+    left: 0px;
+}
+input.botao {
+    position: relative;
+    left: 20px;
+}
+section#console {
+    position: relative;
+    float: right;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+    padding: 2px;
+    width: 500px;
+    min-height: 300px;
+
+    background-color: #888888;
+    color: aquamarine;
+    box-shadow: 0px 0px 10px grey;
+}
+span#warn {
+     position: absolute;
+     top: 180px;
+     right: 250px;
+     color: chartreuse;
+ }
+
+/********************************/
+/*FORMATACAO RODAPE*/
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #dddddd;
+}
+footer#rodape p {
+    text-align: center;
+}
+
+
